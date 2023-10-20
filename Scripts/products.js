@@ -1,8 +1,13 @@
 export { inventory };
 
+// Cantidades aleatorias entre 1 y 30
 const getRandomQuantity = () => {
-  return Math.floor(Math.random() * 20) + 1;
+  return Math.floor(Math.random() * 30) + 1;
 };
+
+function getRandomQuantityTraditional(params) {
+    
+}
 
 const inventory = [
     { id: 1, nombre: "Bruja", cantidad: getRandomQuantity(), precio: 79.95 },
