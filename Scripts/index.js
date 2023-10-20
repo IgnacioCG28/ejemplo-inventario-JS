@@ -1,4 +1,4 @@
-import { listProducts } from "./listProductos.js";
+import { listProductos } from "./listProductos.js";
 
 /**
  *  Autor: Ignacio Carmona González
