@@ -43,16 +43,20 @@ label {
   font-weight: bold;
 }
 
+
 .inventory-table-style {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 80%;
+  margin: 10px auto;
 }
 
 .inventory-table-style th,
 .inventory-table-style td {
   border: 1px solid #cccccc;
   color: white;
+  padding: 8px;
   text-align: center;
 }
 
