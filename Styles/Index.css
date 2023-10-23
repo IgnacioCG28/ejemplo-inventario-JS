@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'Warbones';
+  font-family: "Warbones";
   src: url(/Assets/Fonts/Warbones-BWgeB.ttf) format("truetype");
 }
 
@@ -19,6 +19,15 @@ h1 {
   color: red;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
+input{
+    margin: 5px;
+}
+
+
 .inventory-style-form {
   border: collapse;
   width: 88%;
@@ -26,9 +35,35 @@ h1 {
   color: white;
 }
 
+.inventory-table-style{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .inventory-table-style th,
-.inventory-table-style td{
-    border: 1px solid #cccccc;
+.inventory-table-style td {
+  border: 1px solid #cccccc;
+  color: white;
+  text-align: center;
+}
+
+.inventory-table-style th {
+  background-color: blue;
+}
+
+.inventory-table-style tr:hover {
+  background-color: black;
+  cursor: pointer;
+}
+
+.inventory-style-form{
+    background-color: black;
     color: white;
-    text-align: center;
+    padding: 20px;
+    border: 1px solid #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 900px;
 }
