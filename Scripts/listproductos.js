@@ -19,7 +19,7 @@ export const listProductos = () => {
 
     const deleteButton = document.createElement("button");
 
-    deleteButton.innerText = "DELETE";
+    deleteButton.innerText = "BORRAR";
     deleteButton.addEventListener("click", () => {
       //Añadir lógica de confirmación de "¿Seguro borrar?". Se accede con item.nombre, item.cantidad e item.precio
     });
