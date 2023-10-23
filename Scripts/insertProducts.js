@@ -20,18 +20,19 @@ export const insertProducts = () => {
         id: inventory.length + 1,
         nombre: productName,
         cantidad: productQty,
-        precio: productPrice,
+        precio: productPrice
       };
       // Añadir producto
       inventory.push(newProduct);
 
+      // Limpiar la tabla antes de la nueva insercción
+      const cleanTbody = document.getElementById("clean-table");
+
+      cleanTbody.innetHTML = "";
       // Limpiar los campos del formulario
       productForm.reset();
 
       listProductos();
-      
-    } else {
-        alert("Datos erroneos.")
     }
   });
 };
