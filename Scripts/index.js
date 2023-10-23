@@ -12,7 +12,8 @@ document.addEventListener("DOMContentLoaded", listProductos);
 
 document.addEventListener("DOMContentLoaded", () => {
   const btnForm = document.getElementById("product-form-event");
-  btnForm.addEventListener("lick", () => {
+  
+  btnForm.addEventListener("click", () => {
     insertProducts();
   });
 });
