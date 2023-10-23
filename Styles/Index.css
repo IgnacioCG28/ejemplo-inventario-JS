@@ -20,41 +20,33 @@ h1 {
 }
 
 button:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
-button{
-    background-color: blue;
-    color: white;
-    margin: 2px;
-    padding: 8px 18px;
-    border-radius: 5px;
-}
-
-input{
-    margin: 5px;
-    border: 1px solid #333;
-    border-radius: 3px;
-    color: white;
-    outline: none;
-    background-color: black;
-}
-
-label{
-    font-weight: bold;
-}
-
-
-.inventory-style-form {
-  border: collapse;
-  width: 88%;
-  margin: 26px auto;
+button {
+  background-color: blue;
   color: white;
+  margin: 2px;
+  padding: 8px 18px;
+  border-radius: 5px;
 }
 
-.inventory-table-style{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+input {
+  margin: 5px;
+  border: 1px solid #333;
+  border-radius: 3px;
+  color: white;
+  outline: none;
+  background-color: black;
+}
+
+label {
+  font-weight: bold;
+}
+
+.inventory-table-style {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .inventory-table-style th,
@@ -73,17 +65,18 @@ label{
   cursor: pointer;
 }
 /* Estilos formulario*/
-.inventory-style-form{
-    background-color: black;
-    color: white;
-    padding: 20px;
-    border: 1px solid #333;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 900px;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgb(0, 0, 5);
+.inventory-style-form {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  border: 1px solid #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgb(0, 0, 5);
+  flex-direction: column;
+  border: collapse;
+  margin: 26px auto;
 }
-
-
