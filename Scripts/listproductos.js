@@ -23,7 +23,15 @@ export const listProductos = () => {
     deleteButton.innerText = "BORRAR";
     deleteButton.addEventListener("click", () => {
       //Añadir lógica de confirmación de "¿Seguro borrar?". Se accede con item.nombre, item.cantidad e item.precio
-      
+      if (confirm(`¿Estás seguro de borrar "${item.nombre}"?`)) {
+        const index = inventory.findIndex(product => product.id === item.id);
+
+        if (index !== -1) { // Si el resultado no es -1, tenemos coincidencia
+          inventory.splice(index, 1);
+        }
+      }
+      cleanTable.innerHTML = "";
+      listProductos();
     });
 
     cell4.appendChild(deleteButton);

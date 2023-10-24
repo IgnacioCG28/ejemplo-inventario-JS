@@ -1,4 +1,4 @@
-import { listProductos } from "./listProductos.js";
+import { listProductos } from "./listproductos.js";
 import { inventory } from "./products.js";
 
 export const insertProducts = () => {
