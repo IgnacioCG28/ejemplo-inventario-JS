@@ -1,4 +1,4 @@
-import { listProductos } from "./listproductos.js";
+import { listProductos } from "./listProductos.js";
 import { insertProducts } from "./insertProducts.js";
 
 /**
